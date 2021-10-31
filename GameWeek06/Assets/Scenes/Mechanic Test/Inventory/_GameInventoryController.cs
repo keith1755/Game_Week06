@@ -18,8 +18,9 @@ public class _GameInventoryController : MonoBehaviour
         if (item)
         {
             //the use() actually calling the item type script "override use()";
+            Debug.Log("You clicked: " + item.itemName);
             item.use();
-            //Debug.Log("You clicked: " + item.itemName);
+            
         }
     }
 
