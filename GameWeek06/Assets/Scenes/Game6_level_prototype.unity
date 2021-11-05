@@ -14038,18 +14038,18 @@ MonoBehaviour:
   rooms:
   - {fileID: 1421425983867688471, guid: d08f99977ab83b5499abc132b68f1735, type: 3}
   - {fileID: 1421425983867688471, guid: d08f99977ab83b5499abc132b68f1735, type: 3}
+  - {fileID: 3965699695415822896, guid: fffee8af9eee2c64588b13a7569af1bc, type: 3}
   - {fileID: 1421425983867688471, guid: d08f99977ab83b5499abc132b68f1735, type: 3}
   - {fileID: 1421425983867688471, guid: d08f99977ab83b5499abc132b68f1735, type: 3}
-  - {fileID: 1421425983867688471, guid: d08f99977ab83b5499abc132b68f1735, type: 3}
+  - {fileID: 4158925290015396112, guid: cbe39e1be8d441e4a96d851f17983e56, type: 3}
+  - {fileID: 3965699695415822896, guid: fffee8af9eee2c64588b13a7569af1bc, type: 3}
   - {fileID: 7908388651702607669, guid: 3c8e843ec12a3e3428b15f8f48c6b140, type: 3}
-  - {fileID: 7908388651702607669, guid: 3c8e843ec12a3e3428b15f8f48c6b140, type: 3}
-  - {fileID: 7908388651702607669, guid: 3c8e843ec12a3e3428b15f8f48c6b140, type: 3}
-  - {fileID: 7908388651702607669, guid: 3c8e843ec12a3e3428b15f8f48c6b140, type: 3}
-  - {fileID: 7908388651702607669, guid: 3c8e843ec12a3e3428b15f8f48c6b140, type: 3}
+  - {fileID: 3965699695415822896, guid: fffee8af9eee2c64588b13a7569af1bc, type: 3}
+  - {fileID: 4158925290015396112, guid: cbe39e1be8d441e4a96d851f17983e56, type: 3}
+  - {fileID: 262797677762655285, guid: 509e1e72e8990fc4daad3166f513be63, type: 3}
+  - {fileID: 6417630533144784458, guid: 4d03e30b007f3794a86081a4b6f48e92, type: 3}
   - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
-  - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
-  - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
-  - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
+  - {fileID: 6417630533144784458, guid: 4d03e30b007f3794a86081a4b6f48e92, type: 3}
   - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
   - {fileID: 1487047450188884117, guid: 48077fd285513cc46a4171831e821089, type: 3}
 --- !u!4 &1351561374
@@ -23611,6 +23611,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7019232414645652217, guid: 19aa113c2e25e4347b57f36b68a764a2, type: 3}
+      propertyPath: _jump
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7019232414645652218, guid: 19aa113c2e25e4347b57f36b68a764a2, type: 3}
       propertyPath: m_RootOrder
       value: 2
