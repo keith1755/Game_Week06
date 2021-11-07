@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 1297223874117856824}
   m_Layer: 0
   m_Name: Cone (2)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3853,7 +3853,7 @@ GameObject:
   - component: {fileID: 1297223874616803495}
   m_Layer: 0
   m_Name: Cone (4)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6559,7 +6559,8 @@ GameObject:
   - component: {fileID: 1297223875316867939}
   - component: {fileID: 1297223875316867938}
   - component: {fileID: 1297223875316867949}
-  - component: {fileID: 1297223875316867948}
+  - component: {fileID: 1137480686}
+  - component: {fileID: 1700066917185379893}
   m_Layer: 7
   m_Name: Spikes Floor
   m_TagString: Untagged
@@ -6852,20 +6853,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297223875316867951}
   m_Mesh: {fileID: 0}
---- !u!64 &1297223875316867948
-MeshCollider:
+--- !u!114 &1137480686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297223875316867951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316735cbd325b7346a84d8bd8b0c6bd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  spikeGroup: {fileID: 4059041241728682479}
+  StartPosition: {x: 0, y: 0, z: 0}
+  loop: 1
+  trigger: 0
+--- !u!65 &1700066917185379893
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297223875316867951}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 4, y: 0.5558714, z: 4}
+  m_Center: {x: 2, y: 0.2779357, z: -2}
 --- !u!1 &1297223875529730651
 GameObject:
   m_ObjectHideFlags: 0
@@ -6881,7 +6898,7 @@ GameObject:
   - component: {fileID: 1297223875529730649}
   m_Layer: 0
   m_Name: Cone (3)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7332,7 +7349,7 @@ GameObject:
   - component: {fileID: 1297223875671961978}
   m_Layer: 0
   m_Name: Cone (1)
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7783,7 +7800,7 @@ GameObject:
   - component: {fileID: 1297223875776396064}
   m_Layer: 0
   m_Name: Cone
-  m_TagString: Untagged
+  m_TagString: Trap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8228,7 +8245,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4153300152094625609}
-  - component: {fileID: 6725800881764394545}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -8244,7 +8260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4059041241728682479}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 1.111, z: -2}
+  m_LocalPosition: {x: 2, y: -1, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1297223875776396067}
@@ -8255,21 +8271,3 @@ Transform:
   m_Father: {fileID: 1297223875316867936}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6725800881764394545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4059041241728682479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 316735cbd325b7346a84d8bd8b0c6bd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StartTime: 0
-  speed: 2
-  _height: 1
-  OntriggerType: 0
-  LoopType: 1
-  triggered: 0
