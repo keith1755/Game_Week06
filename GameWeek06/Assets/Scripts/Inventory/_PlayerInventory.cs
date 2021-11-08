@@ -11,6 +11,7 @@ public class _PlayerInventory : MonoBehaviour
 
     public static _PlayerInventory instance;
 
+
     //updating inventory panel info by checking each slot which has the k_inventorySlot... component
     void UpdatePanelSlots()
     {
@@ -55,5 +56,21 @@ public class _PlayerInventory : MonoBehaviour
         //Now any script can write Inventory.instance and refer to the one and only inventory
         instance = this;
         UpdatePanelSlots();
+    }
+
+    public void CheckItem()
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            if (list[i].name == "GoldenHead")
+            {
+                
+            }
+        }
+    }
+
+    void Update()
+    {
+        CheckItem();
     }
 }
