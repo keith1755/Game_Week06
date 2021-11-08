@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Hand Painted Stone Texture/Scene/Hand Painted Stone Texture.unity
+- path: Assets/_DesertKits64_Sample/ShowcaseScene_Sample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
