@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Room_ForTesting.unity
+- path: Assets/Hand Painted Stone Texture/Scene/Hand Painted Stone Texture.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
