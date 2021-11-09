@@ -1,0 +1,412 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/keith/Documents/GitHub/Game_Week06/GameWeek06
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64635
+Successfully changed project path to: C:/Users/keith/Documents/GitHub/Game_Week06/GameWeek06
+C:/Users/keith/Documents/GitHub/Game_Week06/GameWeek06
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/keith/Documents/GitHub/Game_Week06/GameWeek06/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002699 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1129ms)
+		BeginReloadAssembly (58ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (433ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (180ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004604 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002B5F3BF1010 doesn't match image C:\Users\keith\Documents\GitHub\Game_Week06\GameWeek06\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (972ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3310 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.3 MB.
+System memory in use after: 152.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3755.
+Total: 3.638000 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.142900 ms MarkObjects: 3.122300 ms  DeleteObjects: 0.071700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/Main Menu/Main Menu.unity
+  artifactKey: Guid(895d83154c89e5d4394a21f9f1b14f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Menu/Main Menu.unity using Guid(895d83154c89e5d4394a21f9f1b14f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfee8ce802f72eec41a4910dff59ed02') in 0.013209 seconds 
+  Import took 0.017799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.460006 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8673172a72b77800529c7ab0f3607c2') in 0.102498 seconds 
+  Import took 0.107610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab6fc7bb85fa4a464524bdc36b78bf') in 0.021386 seconds 
+  Import took 0.026334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-04.png
+  artifactKey: Guid(5c8bc3eeff9c2c64091b664bd15d167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-04.png using Guid(5c8bc3eeff9c2c64091b664bd15d167f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a097bfc09260cea92909a3a7235733') in 0.015909 seconds 
+  Import took 0.020894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af876b5f2da40d1bd28814be624f20ae') in 0.017712 seconds 
+  Import took 0.023576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a13e9981472a3f138a5ecd25b7e1a6e') in 0.017464 seconds 
+  Import took 0.022736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-02.png
+  artifactKey: Guid(793a6e95569a3f24fb802d232d9b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-02.png using Guid(793a6e95569a3f24fb802d232d9b0fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d6c4fb30daf1ba54ac49927fc754cf') in 0.013823 seconds 
+  Import took 0.019008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8be88044aaae384b2d90964ea7c5910') in 0.011666 seconds 
+  Import took 0.016985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89521c87485c23d9aa815c80d3a12ba0') in 0.026411 seconds 
+  Import took 0.032195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497de1fa6343253644b14b2b6828e15e') in 0.013259 seconds 
+  Import took 0.018551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
+  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7950dff49fcdf887041fbad55e54c28') in 0.025720 seconds 
+  Import took 0.030715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
+  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2795c872b005ae4521a8a3a53b5d133a') in 0.011859 seconds 
+  Import took 0.017334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196e17f646cb97854875d86fb8b0b68e') in 0.012456 seconds 
+  Import took 0.017879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fdbf57a00d70e1ca416b6565a245e5') in 0.011550 seconds 
+  Import took 0.016924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-01.png
+  artifactKey: Guid(a414300bca2742549a0339c98c211722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-01.png using Guid(a414300bca2742549a0339c98c211722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fb134eac8f8bb19a5e07e8ef1bbf2d') in 0.016729 seconds 
+  Import took 0.021835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47dc34df6654711bf9a43dd2aa277e1c') in 0.011673 seconds 
+  Import took 0.016738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
+  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4af4646615b4ac738096cd61613c041') in 0.012135 seconds 
+  Import took 0.017760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-06.png
+  artifactKey: Guid(c28aa22d3cef7af41bf864af40dfdf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-06.png using Guid(c28aa22d3cef7af41bf864af40dfdf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18a88d42e8e14d44252edfe067c0bd2') in 0.013980 seconds 
+  Import took 0.019571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75f4e4d489c33f70d1132f1c0462b6b') in 0.013547 seconds 
+  Import took 0.019068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
+  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab8e118c7b9f6ed53d4fd547700d029') in 0.010788 seconds 
+  Import took 0.016223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979fa0c883f67d91393112f1ca90a423') in 0.014567 seconds 
+  Import took 0.020118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-05.png
+  artifactKey: Guid(448eb7bd05f8f4b42bbd87486eb308ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-05.png using Guid(448eb7bd05f8f4b42bbd87486eb308ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30e9f9dc42f8d94b8f7cc1a1a82d21d') in 0.014225 seconds 
+  Import took 0.019990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd0e2889a664ceb57b314ad729cc4e0') in 0.016615 seconds 
+  Import took 0.021948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d78b74ef77366dc615dd96a0bec6b63') in 0.019908 seconds 
+  Import took 0.025486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/Mechanic Test/Icon/Icon-03.png
+  artifactKey: Guid(f16f235ed5a578d44bdf3749a5f05283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mechanic Test/Icon/Icon-03.png using Guid(f16f235ed5a578d44bdf3749a5f05283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bb3d7894350afd997f1ad3bc30fd47') in 0.015010 seconds 
+  Import took 0.020371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93de3c081f02623107cfd36d2e5176cc') in 0.014119 seconds 
+  Import took 0.020058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.969234 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997fa4eee5aaf04fd8f6459e7d8c439a') in 0.013460 seconds 
+  Import took 0.018799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225e40bd11120a5e23361593ecd03a2c') in 0.013034 seconds 
+  Import took 0.018945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6131bc99f7546e6844b447023974bb') in 0.013753 seconds 
+  Import took 0.019539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7f0685cf94787ed2240f083b369975') in 0.016090 seconds 
+  Import took 0.021376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c26038fb7f2f3f71fd99bd8e96f4a07') in 0.015034 seconds 
+  Import took 0.020368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638020141fc2b8f10e3dcb0de19dbff2') in 0.019032 seconds 
+  Import took 0.024777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff28f141f376c1bc3bbf52b84711f974') in 0.014223 seconds 
+  Import took 0.019314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level Design Assets/Base Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f7e727f54f6916779a297379fdf439') in 0.011411 seconds 
+  Import took 0.017065 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
