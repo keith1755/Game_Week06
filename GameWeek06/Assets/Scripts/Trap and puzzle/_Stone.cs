@@ -8,9 +8,10 @@ public class _Stone : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
-        if(other.collider.tag == "Wall" || other.collider.tag == "Door" || other.collider.tag == "Player" || other.collider.tag == "Trap")
+        if(other.collider.tag == "Wall" || other.collider.tag == "Door" || other.collider.tag == "Trap")
         {
             Destroy(gameObject);
         }
+
     }
 }

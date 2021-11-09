@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class _PlayerSys : MonoBehaviour
 {
-    public int life;
     public int bomb;
     public GameObject breakParticle, hit;
 
+    public Transform SpawnPos;
 
-    //public GameObject invertoryBag;
+    public float timer;
 
     void Start()
     {
@@ -21,13 +21,12 @@ public class _PlayerSys : MonoBehaviour
 
     }
 
-    void Gethit()
+    public void Gethit()
     {
-        life -= 1;
-
+        gameObject.transform.position = new Vector3(SpawnPos.position.x, SpawnPos.position.y, SpawnPos.position.z);
     }
 
-    void AddBomb()
+    public void AddBomb()
     {
         bomb += 1;
     }
@@ -49,15 +48,18 @@ public class _PlayerSys : MonoBehaviour
         } 
     }
 
+    void OnControllerColliderHit(ControllerColliderHit other)
+    {
+        if (other.collider.tag == "Trap")
+        {
+            Gethit();
+        }
+
+    }
+
     void GameOver()
     {
 
     }
-
-    void Escape()
-    {
-        
-    }
-
 
 }
