@@ -46,6 +46,7 @@ public class _K_playerControl : MonoBehaviour
 
         if (Input.GetButtonDown("Jump") && isGround)
         {
+            Debug.Log("jump");
             _velocity.y = Mathf.Sqrt(_jump * -2f * _gravity);
         }
     }

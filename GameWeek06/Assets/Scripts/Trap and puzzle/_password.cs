@@ -9,9 +9,11 @@ public class _password : MonoBehaviour
     public int p1 = 1;
     public GameObject passwordBox;
     public bool player;
+    AudioSource _Audio;
 
     void Start()
     {
+        _Audio = GetComponent<AudioSource>();
         player = false;
     }
 
@@ -40,7 +42,7 @@ public class _password : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //play audio
+                _Audio.Play();
                 p1 += 1;
                 if (p1 >= 5)
                 {

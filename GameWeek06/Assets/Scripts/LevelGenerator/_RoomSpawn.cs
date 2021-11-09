@@ -27,7 +27,7 @@ public class _RoomSpawn : MonoBehaviour
 
     IEnumerator RoomGen()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(4);
         if (!finish)
         {
             for (int i = 0; i < roomPos.Length; i++)
