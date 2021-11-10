@@ -14,8 +14,10 @@ public class _ItemPickUp : MonoBehaviour
 
     public void OnTriggerStay(Collider other)
     {
+        
         if (other.tag == "Player")
         {
+            transform.LookAt(other.transform);
             displayText.text = item.itemName;
             interact = true;
         }

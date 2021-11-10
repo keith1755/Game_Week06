@@ -11,7 +11,7 @@ public class _PlayerInventory : MonoBehaviour
 
     public static _PlayerInventory instance;
 
-    public bool ankh, CanJar, CatStat, KhoShi, PharahoHead, Scarab, StickFia, Snake;
+    public bool ankh, CanJar, CatStat, KhoShi, PharahoHead, Scarab, StickFia, Snake, KingTut;
 
     //updating inventory panel info by checking each slot which has the k_inventorySlot... component
     void UpdatePanelSlots()

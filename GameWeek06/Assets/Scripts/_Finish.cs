@@ -9,9 +9,12 @@ public class _Finish : MonoBehaviour
     public GameObject[] collection;
     public TMP_Text itemDescription;
 
+    public AudioSource unlock, escape;
+    public GameObject hiddenDoor;
+
     void Start()
     {
-        
+       
     }
 
 
@@ -49,7 +52,13 @@ public class _Finish : MonoBehaviour
         {
             collection[7].SetActive(true);
         }
+        if (inventoryBag.GetComponent<_PlayerInventory>().KingTut == true)
+        {
+            collection[8].SetActive(true);
+        }
     }
+
+
 
     public void Item1()
     {
@@ -89,5 +98,9 @@ public class _Finish : MonoBehaviour
     public void Item8()
     {
         itemDescription.text = "Scarab Bettle - An insect that often represented as a symbol of immortality, resurrection and protection. Pharaohs were often buried with scarab amulets to protect them in the afterlife and ensure they are reincarnated.";
+    }
+    public void Item9()
+    {
+        itemDescription.text = "Tutankhamun - Tut became pharaoh of Egypt in 1332 B.C. at the age of nine. He ruled the country at a time of conflict, when battles over land raged between Egypt and the neighboring kingdom of Nubia. Nearly a decade after coming to power, the young leader died at about 18. But historians didn・t know much about Tut until 1922. That・s when a British archaeologist named Howard Carter uncovered Tut・s tomb in Egypt・s Valley of the Kings.";
     }
 }

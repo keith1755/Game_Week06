@@ -11,6 +11,7 @@ public class _Bomb : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            transform.LookAt(other.transform);
             displayText.text = "Bomb";
 
             if (Input.GetKeyDown(KeyCode.E))

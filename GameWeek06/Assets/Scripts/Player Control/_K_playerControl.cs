@@ -16,6 +16,7 @@ public class _K_playerControl : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public AudioSource footstep;
 
 
     public CharacterController _controller;
@@ -28,11 +29,21 @@ public class _K_playerControl : MonoBehaviour
 
     private void Update()
     {
+        
         isGround = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-            if(isGround && _velocity.y < 0)
+        
+        if(isGround && _velocity.y < 0)
         {
             _velocity.y = -2.0f;
         }
+
+        if (isGround && _controller.velocity.magnitude > 0f && footstep.isPlaying == false)
+        {
+            footstep.volume = Random.Range(0.5f, 0.8f);
+            footstep.pitch = Random.Range(0.5f, 1.6f);
+            footstep.Play();
+        }
+
 
 
         float x = Input.GetAxis("Horizontal");

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1627588aa2f64e740ba87c1e39b9fdc2, type: 3}
   m_Name: Sickle_Flail
   m_EditorClassIdentifier: 
-  itemName: Sickle Flail
+  itemName: Crook and Flail
   itemImage: {fileID: 21300000, guid: 806d79bef4b9a02429ac2b6e896e2e6b, type: 3}
   item: {fileID: 11400000}
   heal: 0
