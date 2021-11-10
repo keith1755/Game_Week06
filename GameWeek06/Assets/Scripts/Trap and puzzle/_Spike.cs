@@ -13,10 +13,12 @@ public class _Spike : MonoBehaviour
     bool moveDown;
     public bool loop, trigger;
 
+    AudioSource _triggerSound;
+
     void Start()
     {
         StartPosition = spikeGroup.transform.position;
-
+        _triggerSound = GetComponent<AudioSource>();
     }
 
 
@@ -80,6 +82,11 @@ public class _Spike : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
+            if (!loop)
+            {
+                _triggerSound.Play();
+            }
+            
             trigger = true;
         }
     }

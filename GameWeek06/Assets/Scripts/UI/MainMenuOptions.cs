@@ -8,7 +8,7 @@ public class MainMenuOptions : MonoBehaviour
 
     public static bool isLoading = false;
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
     public GameObject playWindow;
     public GameObject playTutorial; 
 
@@ -25,13 +25,13 @@ public class MainMenuOptions : MonoBehaviour
     }
 
 
-=======
-    public void NewGame()
+//=======
+    public void NewGame2()
     {
         SceneManager.LoadScene(1);
     }
 
->>>>>>> b0b919145606c189127ffeda1907f7f9d4178a21
+//>>>>>>> b0b919145606c189127ffeda1907f7f9d4178a21
     public void LoadGame()
     {
         isLoading = true;
@@ -44,12 +44,12 @@ public class MainMenuOptions : MonoBehaviour
         Debug.Log("Game is exiting");
         //Just to make sure its working
     }
-<<<<<<< HEAD
+//<<<<<<< HEAD
 
     public void closePlayWindow()
     {
         playWindow.SetActive(false);
     }
-=======
->>>>>>> b0b919145606c189127ffeda1907f7f9d4178a21
+//=======
+//>>>>>>> b0b919145606c189127ffeda1907f7f9d4178a21
 }
