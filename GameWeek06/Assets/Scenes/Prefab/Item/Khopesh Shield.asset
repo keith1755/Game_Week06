@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Khopesh Shield
   m_EditorClassIdentifier: 
   itemName: Khopesh Shield
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 72c1f93fdf8c186449dbed067ca66010, type: 3}
   item: {fileID: 11400000}
   heal: 0

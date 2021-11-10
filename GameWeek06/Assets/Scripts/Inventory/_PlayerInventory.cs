@@ -11,6 +11,7 @@ public class _PlayerInventory : MonoBehaviour
 
     public static _PlayerInventory instance;
 
+    public bool ankh, CanJar, CatStat, KhoShi, PharahoHead, Scarab, StickFia, Snake;
 
     //updating inventory panel info by checking each slot which has the k_inventorySlot... component
     void UpdatePanelSlots()
@@ -62,9 +63,37 @@ public class _PlayerInventory : MonoBehaviour
     {
         for (int i = 0; i < list.Count; i++)
         {
-            if (list[i].name == "GoldenHead")
+            if (list[i].name == "Ankh")
             {
-                
+                ankh = true;
+            }
+            if (list[i].name == "CanopicJars")
+            {
+                CanJar = true;
+            }
+            if (list[i].name == "Cat Statue")
+            {
+                CatStat = true;
+            }
+            if (list[i].name == "Khopesh Shield")
+            {
+                KhoShi = true;
+            }
+            if (list[i].name == "Pharaoh_Headdress")
+            {
+                PharahoHead = true;
+            }
+            if (list[i].name == "Scarab_Charm")
+            {
+                Scarab = true;
+            }
+            if (list[i].name == "Sickle_Flail")
+            {
+                StickFia = true;
+            }
+            if (list[i].name == "Snake")
+            {
+                Snake = true;
             }
         }
     }

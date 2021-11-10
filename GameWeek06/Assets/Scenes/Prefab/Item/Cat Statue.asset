@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Cat Statue
   m_EditorClassIdentifier: 
   itemName: Cat Statue
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 203b6c48d92f2e04eacb7fa26c1002f7, type: 3}
   item: {fileID: 11400000}
   heal: 0

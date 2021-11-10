@@ -16,15 +16,16 @@ public class _PlayerSys : MonoBehaviour
     public TMP_Text _timer;
     public GameObject _gameOver;
 
-    public bool GameStart, Escape;
+    public bool GameStart, Escape, _pause;
     public GameObject EscapeUI;
+    public GameObject PauseUI;
 
     public AudioSource _HitSound;
 
 
     void Start()
     {
-        
+        _pause = false;
     }
 
     void Update()
@@ -46,6 +47,29 @@ public class _PlayerSys : MonoBehaviour
         if (Escape)
         {
             FinishGame();
+        }
+
+
+        //pause menu
+        if (GameStart)
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                if (_pause)
+                {
+                    _pause = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                    Time.timeScale = 1;
+                    PauseUI.SetActive(false);
+                }
+                else if (!_pause)
+                {
+                    _pause = true;
+                    Cursor.lockState = CursorLockMode.None;
+                    Time.timeScale = 0;
+                    PauseUI.SetActive(true);
+                }
+            }
         }
 
     }
@@ -100,5 +124,7 @@ public class _PlayerSys : MonoBehaviour
         Time.timeScale = 0;
         EscapeUI.SetActive(true);
     }
+
+
 
 }

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: FoodStores
   m_EditorClassIdentifier: 
   itemName: FoodStores
-  itemImage: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: ffd2dfdb1f4d9c14281caa8aaaf80dbe, type: 3}
   item: {fileID: 11400000}
   heal: 0

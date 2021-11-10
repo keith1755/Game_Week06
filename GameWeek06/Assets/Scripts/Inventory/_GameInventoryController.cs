@@ -36,7 +36,7 @@ public class _GameInventoryController : MonoBehaviour
         else
         {
             displayText.text = "";
-            diaplayImage.sprite = null;
+            //diaplayImage.sprite = null;
         }
     }
 
